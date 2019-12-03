@@ -10,6 +10,7 @@
 		AB440844239501A7005EC41C /* libffmpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB440843239501A7005EC41C /* libffmpeg.a */; };
 		AB440847239502D5005EC41C /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB440846239502D5005EC41C /* libiconv.2.4.0.tbd */; };
 		AB44084923960B16005EC41C /* 131.aac in Resources */ = {isa = PBXBuildFile; fileRef = AB44084823960B16005EC41C /* 131.aac */; };
+		AB44084E2396136A005EC41C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB44084D2396136A005EC41C /* README.md */; };
 		AB53A8562387D8EA0089B1E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53A8552387D8EA0089B1E5 /* AppDelegate.m */; };
 		AB53A8592387D8EA0089B1E5 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB53A8582387D8EA0089B1E5 /* ViewController.mm */; };
 		AB53A85C2387D8EA0089B1E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB53A85A2387D8EA0089B1E5 /* Main.storyboard */; };
@@ -118,6 +119,7 @@
 		AB440843239501A7005EC41C /* libffmpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffmpeg.a; sourceTree = "<group>"; };
 		AB440846239502D5005EC41C /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
 		AB44084823960B16005EC41C /* 131.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = 131.aac; sourceTree = "<group>"; };
+		AB44084D2396136A005EC41C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		AB53A8512387D8EA0089B1E5 /* FFmpegAudioDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFmpegAudioDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB53A8542387D8EA0089B1E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB53A8552387D8EA0089B1E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -314,6 +316,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AB44084C23961356005EC41C /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				AB44084823960B16005EC41C /* 131.aac */,
+				AB44084D2396136A005EC41C /* README.md */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		AB53A8482387D8EA0089B1E5 = {
 			isa = PBXGroup;
 			children = (
@@ -338,7 +349,7 @@
 		AB53A8532387D8EA0089B1E5 /* FFmpegAudioDecoder */ = {
 			isa = PBXGroup;
 			children = (
-				AB44084823960B16005EC41C /* 131.aac */,
+				AB44084C23961356005EC41C /* resource */,
 				AB53A8DC2387D9E00089B1E5 /* libffmpeg_decoder */,
 				AB53A8DB2387D9E00089B1E5 /* utils */,
 				AB53A8862387D9860089B1E5 /* ffmpeg */,
@@ -507,6 +518,7 @@
 			files = (
 				AB53A8612387D8EA0089B1E5 /* LaunchScreen.storyboard in Resources */,
 				AB53A85E2387D8EA0089B1E5 /* Assets.xcassets in Resources */,
+				AB44084E2396136A005EC41C /* README.md in Resources */,
 				AB53A85C2387D8EA0089B1E5 /* Main.storyboard in Resources */,
 				AB44084923960B16005EC41C /* 131.aac in Resources */,
 			);
