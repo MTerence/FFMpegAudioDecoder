@@ -1,5 +1,7 @@
 # FFmpegAudioDecoder
 
+###aac格式转pcm格式
+
 ####初始化两个decoer，并且根据上一步算出的采样率，计算出伴奏和原唱的bufferSize
 ```
 int Decoder::init(const char *audioFile) {
